@@ -4,10 +4,6 @@ go:
     - 1.14.x
 
 install:
-    - go get github.com/archit-p/MicroserviceTemplate
-
-script:
-    - cd $GOPATH/src/github.com/archit-p/MicroserviceTemplate
     - make build
 
 test:
