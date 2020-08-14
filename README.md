@@ -1,26 +1,26 @@
 [![Golang](https://www.vectorlogo.zone/logos/golang/golang-ar21.svg)](https://golang.org)
 [![MongoDB](https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg)](https://www.mongodb.com/)  
-[![Build Status](https://img.shields.io/travis/archit-p/go-microservice)](https://travis-ci.org/archit-p/go-microservice)
-[![Go Report Card](https://goreportcard.com/badge/github.com/archit-p/go-microservice)](https://goreportcard.com/report/github.com/archit-p/go-microservice)  
+[![Build Status](https://img.shields.io/travis/archit-p/MicroserviceTemplate)](https://travis-ci.org/archit-p/MicroserviceTemplate)
+[![Go Report Card](https://goreportcard.com/badge/github.com/archit-p/MicroserviceTemplate)](https://goreportcard.com/report/github.com/archit-p/MicroserviceTemplate)  
 Go Microservice built using best practices, ideal for use as a starter template. It features an extensible model - Sample - with support for CRUD operations for MongoDB.
 
 ## References
 The idea for this project came up after reading multiple blogs and guides on best practices while writing Go code. I'm sharing links to these below.
 ### Project Structure
-1. [How to Write Go Code](https://golang.org/doc/code.html)
-2. [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
-3. [Organizing Database Access](https://www.alexedwards.net/blog/organising-database-access)
+1.  [How to Write Go Code](https://golang.org/doc/code.html)
+2.  [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
+3.  [Organizing Database Access](https://www.alexedwards.net/blog/organising-database-access)
 ### Documentation
-1. [Documenting APIs with Swagger](https://swagger.io/resources/articles/documenting-apis-with-swagger/)
-2. [Documenting Go Code](https://blog.golang.org/godoc)
+1.  [Documenting APIs with Swagger](https://swagger.io/resources/articles/documenting-apis-with-swagger/)
+2.  [Documenting Go Code](https://blog.golang.org/godoc)
 ### Containerization
-1. [Docker: Multi-Stage Builds](https://docs.docker.com/develop/develop-images/multistage-build/)
-2. [Why You Should Use Microservices and Containers](https://developer.ibm.com/technologies/microservices/articles/why-should-we-use-microservices-and-containers/)
+1.  [Docker: Multi-Stage Builds](https://docs.docker.com/develop/develop-images/multistage-build/)
+2.  [Why You Should Use Microservices and Containers](https://developer.ibm.com/technologies/microservices/articles/why-should-we-use-microservices-and-containers/)
 ### Testing
-1. [Structuring Tests in Go](https://medium.com/@benbjohnson/structuring-tests-in-go-46ddee7a25c)
-2. [Testing Web-Apps in Go](https://markjberger.com/testing-web-apps-in-golang/)
+1.  [Structuring Tests in Go](https://medium.com/@benbjohnson/structuring-tests-in-go-46ddee7a25c)
+2.  [Testing Web-Apps in Go](https://markjberger.com/testing-web-apps-in-golang/)
 ## Project Layout
-```
+```text
 cmd             (contains code for our apps)
 |-+ web         (server router and controllers)
 pkg             (contains reusable code)
