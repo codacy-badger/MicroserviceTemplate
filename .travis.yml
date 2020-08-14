@@ -1,0 +1,14 @@
+language: go
+
+go:
+    - 1.14.x
+
+install:
+    - go get github.com/archit-p/go-microservice
+
+script:
+    - cd $GOPATH/src/github.com/archit-p/go-microservice
+    - make build
+
+test:
+    - make test

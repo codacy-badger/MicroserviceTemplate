@@ -1,0 +1,15 @@
+# sublime project files
+*sublime*
+
+# vscode files
+*vscode*
+
+# ignore target
+main
+
+# coverage report
+cov.out
+
+# ignore swagger docs
+docs/docs.go
+docs/swagger*
